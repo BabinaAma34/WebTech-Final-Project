@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Simple Recipe Sharing Platform</title>
+    <link rel="stylesheet" href="css_files/admin.css">
+</head>
+<body>
+    <header class="admin-header">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="php_files/admin.php">Dashboard</a></li>
+                <li><a href="php_files/user_management.php">User Management</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <img src="image_files/userlogo.img" alt="Admin logo" class="admin-logo">
+            <h1>Admin Dashboard</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="analytics-grid">
+            <!-- Total Users Card -->
+            <div class="analytics-card">
+                <div class="circle-image">
+                    <img src="image_files/userlogo.img" alt="User icon" />
+                </div>
+                <h3>Total Users</h3>
+                <p id="totalUsers" class="count">0</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="javaScript_files/user_management.js"></script>
+</body>
+</html>

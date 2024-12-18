@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="css_files/user_profile.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="profile-logo">
+                <div class="circle-logo">
+                    <img src="image_files/userlogo.img" alt="User Logo">
+                </div>
+                <h3 class="username">User Name</h3>
+            </div>
+            <ul>
+                <li><a href="php_files/landing_page.php">Home</a></li>
+                <li><a href="php_files/recycle.php">Recycle</a></li>
+                <li><a href="php_files/logout.php">Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Profile Content -->
+        <main class="profile-content">
+            <header class="profile-header">
+                <h1>Welcome, User Name!</h1>
+            </header>
+
+            <!-- User Details Section -->
+            <section class="user-details">
+                <h2>My Profile</h2>
+                <div class="details">
+                    <p><strong>First Name:</strong> FirstName</p>
+                    <p><strong>Last Name:</strong> LastName</p>
+                    <p><strong>Email:</strong> Email</p>
+                    <p><strong>Phone Number:</strong> PhoneNumber</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

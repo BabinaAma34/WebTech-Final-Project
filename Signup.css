@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('../image_files/plastic4.img') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 10px 15px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 280px; /* Reduced width */
+  text-align: center;
+}
+
+h4 {
+  color: #333;
+  font-size: 20px; /* Smaller font */
+  margin-bottom: 10px; /* Reduced margin */
+}
+
+label {
+  font-weight: bold;
+  font-size: 12px; /* Smaller font size */
+  margin-top: 6px;
+  display: block;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  width: 100%;
+  padding: 6px; /* Reduced padding */
+  margin: 4px 0; /* Smaller vertical spacing */
+  font-size: 13px; /* Smaller font */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #8bc34a;
+  color: white;
+  padding: 8px; /* Reduced padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+input[type="submit"]:hover {
+  background-color: #5c9e2f;
+}
+
+small {
+  font-size: 10px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+}

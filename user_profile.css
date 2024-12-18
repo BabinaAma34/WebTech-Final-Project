@@ -1,0 +1,160 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #4CAF50;
+  width: 250px;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sidebar .profile-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.circle-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.circle-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sidebar .username {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  margin: 1rem 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #45a049;
+}
+
+/* Profile Content */
+.profile-content {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  color: #333333;
+}
+
+/* User Details Section */
+.user-details {
+  background-color: #f0f0f0;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.user-details h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.user-details p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.user-details p strong {
+  color: #333333;
+}
+
+/* Submissions Section */
+.submissions {
+  margin-top: 2rem;
+}
+
+.submissions h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.submissions table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.submissions th,
+.submissions td {
+  border: 1px solid #dddddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.submissions th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.submissions tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.submissions tr:hover {
+  background-color: #f1f1f1;
+}
